@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+     "composite": true,   // Enable project references
+    "noEmit": false,     // Ensure files are emitted
+    "outDir": "./dist",   // Set output directory for emitted files
+    "strict": true
+  },
+  "include": ["src/**/*"],
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
+}
