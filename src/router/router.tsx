@@ -8,7 +8,7 @@ import SingleProduct from "../component/SingleProduct";
 import { createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";
 import TemporaryDrawer from "../component/Drawer";
 import LazySlider from "../component/LazySlider";
-import Checkout from "../component/Checkout";
+// import Checkout from "../component/Checkout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,7 +24,7 @@ const router = createBrowserRouter(
       {/* <Route path="/jewelery" element={<CategoryPage category="jewelery" />} /> */}
       
       <Route path="/drawer" element={<TemporaryDrawer />} />
-      <Route path="/checkout" element={<Checkout />} />
+      {/* <Route path="/checkout" element={<Checkout />} /> */}
 
     </Route>
   )

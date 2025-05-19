@@ -1,0 +1,14 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+// import { createBrowserRouter, createRoutesFromElements, Route } from "react-router";
+import Layout from "./Layout";
+import Products from "../component/Products";
+import Cart from "../component/Cart";
+// import CategoryPage from "../component/CategoryPage";
+import Wishlist from "../component/Wishlist";
+import SingleProduct from "../component/SingleProduct";
+import { createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";
+import TemporaryDrawer from "../component/Drawer";
+import LazySlider from "../component/LazySlider";
+import Checkout from "../component/Checkout";
+const router = createBrowserRouter(createRoutesFromElements(_jsxs(Route, { path: "/", element: _jsx(Layout, {}), children: [_jsx(Route, { path: "/", element: _jsx(Products, {}) }), _jsx(Route, { path: "/cart", element: _jsx(Cart, {}) }), _jsx(Route, { path: "/wishlist", element: _jsx(Wishlist, {}) }), _jsx(Route, { path: "/slider", element: _jsx(LazySlider, {}) }), _jsx(Route, { path: "/products/:productname", element: _jsx(SingleProduct, {}) }), _jsx(Route, { path: "/drawer", element: _jsx(TemporaryDrawer, {}) }), _jsx(Route, { path: "/checkout", element: _jsx(Checkout, {}) })] })));
+export default router;

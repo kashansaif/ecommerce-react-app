@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+function TestNavbar() {
+    return (_jsxs(_Fragment, { children: [_jsx("div", { className: "bg-gray-800 p-4 fixed w-full top-0 left-0 z-10", children: _jsxs("nav", { className: "flex justify-between items-center text-white", children: [_jsx("a", { href: "#", className: "text-xl", children: "Logo" }), _jsxs("ul", { className: "flex space-x-4", children: [_jsx("li", { children: _jsx("a", { href: "#", children: "Home" }) }), _jsx("li", { children: _jsx("a", { href: "#", children: "About" }) }), _jsx("li", { children: _jsx("a", { href: "#", children: "Services" }) }), _jsx("li", { children: _jsx("a", { href: "#", children: "Contact" }) })] })] }) }), _jsxs("div", { className: "mt-20 p-4", children: [_jsx("h1", { className: "text-2xl", children: "Content Below the Navbar" }), _jsx("p", { className: "mt-4", children: "Scroll down to see the navbar staying at the top." })] })] }));
+}
+export default TestNavbar;
